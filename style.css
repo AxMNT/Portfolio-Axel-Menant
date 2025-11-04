@@ -345,6 +345,7 @@ footer {
     width: 50%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 @media (max-width:1550px) {
@@ -393,6 +394,12 @@ footer {
     #galerie h2 {
         width: 90%;
         margin: auto;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 50vh;
     }
 }
 

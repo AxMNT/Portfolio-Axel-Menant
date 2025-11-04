@@ -215,7 +215,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-align: center;
 }
 
 .fin {
@@ -225,6 +224,7 @@ footer {
     width: 50%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 @media (max-width:1550px) {
@@ -266,6 +266,11 @@ footer {
     }
     .project-text p {
         flex: 1 0 70%;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 50vh;
     }
 }
 

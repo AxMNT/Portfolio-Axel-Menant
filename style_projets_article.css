@@ -230,7 +230,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-align: center;
 }
 
 .fin {
@@ -240,6 +239,7 @@ footer {
     width: 50%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 @media (max-width:1550px) {
@@ -306,6 +306,11 @@ footer {
     }
     .couv {
         flex:1 0 25% ;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 50vh;
     }
 }
 

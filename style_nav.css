@@ -62,7 +62,7 @@ nav {
     border: 2px solid rgba(255, 255, 255, 0.18);
 }
 
-.menu a:hover .titre,
+.menu a:hover .page,
 .menu a:hover ion-icon {
     display: block;
     transition: 0.3s;
@@ -70,7 +70,7 @@ nav {
     color: #6FFC7B;
 }
 
-.menu .titre {
+.menu .page {
     display: none;
     padding-top: 5px;
     transform: scale(0);
@@ -152,7 +152,7 @@ a:hover button {
         display: none;
     }
 
-    .menu .titre {
+    .menu .page {
         display: block;
         transform: scale(1);
     }

@@ -249,7 +249,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: #fff;
-    text-align: center;
 }
 
 .fin {
@@ -259,6 +258,7 @@ footer {
     width: 50%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 @media (max-width:1550px) {
@@ -305,6 +305,11 @@ footer {
     .logiciel-container,
     .competences-container {
         flex-direction: column;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 50vh;
     }
 }
 
