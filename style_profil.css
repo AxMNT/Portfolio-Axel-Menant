@@ -104,11 +104,14 @@ header {
 }
 
 .profil-elements p, p {
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.1em;
     line-height: 1.5em;
+}
+
+.profil-elements p .logipref p, .competences p, #qui p {
+    font-family: 'Roboto';
 }
 
 .profil-elements a {
@@ -225,7 +228,7 @@ h4 {
 }
 
 .competences-card {
-    height: 30vh;
+    min-height: 30vh;
     flex: 1 1 40%;
 }
 
