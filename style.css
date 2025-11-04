@@ -159,6 +159,7 @@ h2 {
 }
 
 .project-text p {
+    font-family: 'Roboto';
     text-align: left;
     font-size: 1rem;
     flex: 1 0 50%;
@@ -306,6 +307,10 @@ h2 {
     gap: 50px;
 }
 
+.contain-description p {
+        font-family: 'Roboto';
+        font-size: 0.8em;
+    }
 
 /* GALERIE */
 
@@ -365,14 +370,14 @@ footer {
     /* QUI JE SUIS ??? */
     .description {
         width: 100%;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         height: auto;
     }
     .contain-description {
-        width: 90%;
+        flex: 1 1 60%;
     }
     .pdp {
-        width: 100%;
+        width: 40%;
         max-width: 100%;
         justify-content: center;
         border-radius: 0;
@@ -405,7 +410,18 @@ footer {
     .project-button {
         width: 100%;
     }
+    .description {
+        flex-direction: column-reverse;
+    }
     /* MES PROJETS CARD */
+
+    .project-illustration {
+        height: 250px;
+    }
+
+    .project-information {
+        padding: 1em;
+    }
     .project-text p {
         width: 100%;
     }

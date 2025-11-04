@@ -139,7 +139,7 @@ a:hover button {
     nav {
         width: 100%;
         padding: 0 1em;
-        bottom: 60px;
+        bottom: 20px;
     }
     #contact-button-nav button {
         min-height: 50px;
@@ -172,6 +172,22 @@ a:hover button {
     .menu ion-icon {
         display: none;
     }
+
+    .menu a:hover ion-icon {
+        display: none;
+    }
+
+    .menu {
+        height: 40px;
+    }
+
+    #contact-button-nav button {
+        min-height: 40px;
+        padding: 0;
+    }
+    #contact-button-nav {
+        height: auto;
+    }
     .line {
         width: 2px;
         height: 20px;
@@ -179,5 +195,6 @@ a:hover button {
     }
     .menu a {
         gap: 0;
+        font-size: 0.8em;
     }
 }
