@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NeueKaine;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: NeueKaine;
+    src: url(fonts/neue-kaine-variable.woff), url(fonts/neuekaine-black.ttf) url(fonts/neuekaine-bold.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NeueKaineBlack;
+    src: url(fonts/neuekaine-black.ttf);
+    font-style: normal;
+}
+
+#left {
+    color: #fff;
+}
+
+.font {
+    font-family: NeueKaine;
+}
+
+nav {
+    padding-top: 4em;
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    order: 2;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 30px;
+    max-width: 50%;
+    min-width: 25%;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: #121212c9;
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.menu a:hover .titre,
+.menu a:hover ion-icon {
+    display: block;
+    transition: 0.3s;
+    transform: scale(1);
+    color: #6FFC7B;
+}
+
+.menu .titre {
+    display: none;
+    padding-top: 5px;
+    transform: scale(0);
+}
+
+.menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon ion-icon {
+    width: 25px;
+    height: 25px;
+    list-style-type: none;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 60px;
+    min-width: 120px;
+    background-color: #6FFC7B;
+    border: none;
+    font-size: 1em;
+    color: #121212;
+}
+
+a:hover button {
+    color: #fff;
+}
+
+.project-button:hover,
+.contact-button:hover button {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: solid 2px #6FFC7B;
+    background-color: transparent;
+}
+
+#contact-button-nav {
+    display: none;
+}
+
+#left {
+    order: 1;
+    width: 120px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+.contact-button {
+    order: 3;
+    width: 120px;
+    max-height: 60px;
+}
+
+@media (max-width:1550px) {
+    nav {
+        padding: 4em 4em 0 4em;
+    }
+}
+
+@media (max-width:992px) {
+    .menu {
+        max-width: 100%;
+        width: 100%;
+        padding-right: 0;
+    }
+    nav {
+        width: 100%;
+        padding: 0 1em;
+        bottom: 60px;
+    }
+    #contact-button-nav button {
+        min-height: 50px;
+        height: 100%;
+    }
+    .contact-button,
+    #left {
+        display: none;
+    }
+    #contact-button-nav {
+        display: block;
+        height: 100%;
+    }
+    .menu .titre {
+        display: block;
+        transform: scale(1);
+    }
+    .active {
+        color: #6FFC7B;
+    }
+    .menu a {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .menu ion-icon {
+        display: none;
+    }
+    .line {
+        width: 2px;
+        height: 20px;
+        background-color: #656465;
+    }
+    .menu a {
+        gap: 0;
+    }
+}

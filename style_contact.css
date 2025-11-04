@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NeueKaine;
+    src: url(fonts/neue-kaine-variable.woff), url(fonts/neuekaine-black.ttf) url(fonts/neuekaine-bold.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NeueKaineBlack;
+    src: url(fonts/neuekaine-black.ttf);
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+}
+
+.contact-container ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-family: NeueKaine;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #6FFC7B;
+}
+
+ul a {
+    color: #919191;
+    font-weight: 500;
+}
+
+.active {
+    color: #6FFC7B;
+}
+
+.contact-container ul ion-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #919191;
+    color: #121212;
+    border-radius: 100%;
+}
+
+body {
+    background-color: #121212;
+}
+
+header {
+    height: auto;
+}
+
+#onepage {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    width: 45%;
+    height: 100%;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-container {
+    color: #fff;
+    padding-top: 300px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navlink {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    height: 50%;
+}
+
+.contact-img {
+    width: 400px;
+    overflow: hidden;
+    height: 400px;
+    border-radius: 15px ;
+}
+
+.contact-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box p {
+    font-size: 1.5em;
+}
+
+.contact-elements {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-elements ion-icon {
+    font-size: 2.5em;
+    padding: 10px;
+    color: #121212;
+    background-color: #6FFC7B;
+    border-radius: 100%;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.fin {
+    border-top: 2px solid #656465;
+    display: flex;
+    height: 40%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1550px) {
+    #onepage .container {
+        padding: 0 4em;
+    }
+}
+
+@media (max-width:992px) {
+    h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .contact-elements {
+        font-size: 1em;
+        flex-direction: column;
+    }
+    .titre {
+        width: 100%;
+    }
+    #onepage .container {
+        padding: 2em;
+    }
+
+    #onepage {
+        height: 80vh;
+    }
+    .contact-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-top: 0;
+    }
+    .contact-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 90vh;
+    }
+    .contact-container ul {
+        flex-wrap: wrap;
+    }
+    .contact-information {
+        width: 100%;
+        padding: 2em 0;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .contact-img {
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+}
