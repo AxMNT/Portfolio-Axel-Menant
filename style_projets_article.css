@@ -118,7 +118,8 @@ header {
 }
 
 .project-img img {
-    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -271,6 +272,8 @@ footer {
         width: 90%;
         padding-left: 0;
         padding: 2em 0;
+        height: 100%;
+        gap: 50px;
     }
     .project-img {
         position: relative;

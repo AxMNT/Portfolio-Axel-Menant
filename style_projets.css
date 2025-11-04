@@ -236,7 +236,6 @@ footer {
 @media (max-width:992px) {
     h1 {
         font-size: 3em;
-        text-align: center;
     }
     .titre-elements {
         font-size: 1em;
@@ -246,7 +245,7 @@ footer {
         width: 100%;
     }
     #all-projects .container {
-        padding: 2em;
+        padding: 1em;
     }
     .titre-container {
         align-items: center;

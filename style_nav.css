@@ -22,6 +22,10 @@ a {
     font-style: normal;
 }
 
+.line {
+    display: none;
+}
+
 #left {
     color: #fff;
 }
@@ -107,9 +111,7 @@ a:hover button {
     background-color: transparent;
 }
 
-#contact-button-nav {
-    display: none;
-}
+
 
 #left {
     order: 1;
@@ -134,7 +136,7 @@ a:hover button {
     .menu {
         max-width: 100%;
         width: 100%;
-        padding-right: 0;
+
     }
     nav {
         width: 100%;
@@ -149,10 +151,7 @@ a:hover button {
     #left {
         display: none;
     }
-    #contact-button-nav {
-        display: block;
-        height: 100%;
-    }
+
     .menu .titre {
         display: block;
         transform: scale(1);
@@ -178,23 +177,26 @@ a:hover button {
     }
 
     .menu {
-        height: 40px;
-    }
+        height: 50px;
+        padding: 0 10px;
+        justify-content: space-evenly;
 
-    #contact-button-nav button {
-        min-height: 40px;
-        padding: 0;
     }
-    #contact-button-nav {
-        height: auto;
-    }
+    
     .line {
         width: 2px;
         height: 20px;
         background-color: #656465;
+        display: block;
     }
     .menu a {
         gap: 0;
+        font-size: 0.8em;
+    }
+
+    button {
+        padding: 0;
+        min-height: 50px;
         font-size: 0.8em;
     }
 }

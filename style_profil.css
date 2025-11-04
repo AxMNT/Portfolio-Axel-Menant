@@ -274,11 +274,11 @@ footer {
 @media (max-width:992px) {
     /* CONTAINER */
     #qui .container {
-        padding: 2em;
+        padding: 1em;
     }
     #logipref .container,
     #competences .container {
-        padding: 0 2em;
+        padding: 0 1em;
     }
     /* PROFIL */
     h1 {
