@@ -1,7 +1,5 @@
 #galerie {
     background-color: #121212;
-    width: 100vw;
-    padding-top: 200px;
     display: flex;
     align-items: center;
     flex-direction: column;

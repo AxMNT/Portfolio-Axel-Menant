@@ -99,7 +99,7 @@ h1 {
 
 .project-illustration {
     width: 100%;
-    height: 400px;
+    height: 300px;
     overflow: hidden;
     background-color: #2B2B2B;
     background-size: cover;
@@ -267,6 +267,7 @@ h2 {
     width: 100vw;
     min-height: 50vh;
     display: flex;
+    padding: 100px 0;
 }
 
 .pdp img {
@@ -322,6 +323,7 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
 
 
 
